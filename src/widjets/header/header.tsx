@@ -31,6 +31,11 @@ export const Header = () => {
                     </button>
                 </li>
                 <li>
+                    <button onClick={() => router.push('/books')} className={styles.link}>
+                        Books
+                    </button>
+                </li>
+                <li>
                     <button onClick={() => router.push('/')} className={styles.link}>
                         Main
                     </button>
